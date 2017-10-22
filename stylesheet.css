@@ -26,9 +26,10 @@ html, body {
 
 .menu_list {
 	padding: 0;
-	width: 300px;
+	width: 900px;
 	margin: 0;
 	display: inline-block;
+	text-alignment: left;
 }
 
 .menu_home_button {
