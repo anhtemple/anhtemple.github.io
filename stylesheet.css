@@ -19,12 +19,23 @@ html, body {
 }
 
 /* HEADER */
+/** UPDATED PART**/
 .icon {
-	width: 100px;
+	width: 60px;
     height: auto;
     display: inline-block;
     max-width: 100%;
 	margin: 30px 30px 0px 0px;	
+}
+.logo {
+	font-family: 'Pacifico', cursive;
+	color: black;
+	text-decoration: none;
+	font-size: 36px;
+	text-transform: lowercase;
+}
+.clear {
+	clear:both;
 }
 .menu {
 	margin-bottom: 20px;
@@ -103,7 +114,7 @@ html, body {
 
     .logo_link
     .logo_img	{
-    	width: 40px;
+    	width: 200px;
     	height: auto;
     	margin: 0em 0.5em 1em 0.5em;
     	padding-bottom: 0.5em;
@@ -111,6 +122,7 @@ html, body {
     	border-bottom: 2px solid #f9ebe1;
     	max-width: 100%;
     	opacity: 0.8;
+	text-align: center;
     	}
     .logo_img:hover {
     	border-bottom: 3px solid #d8c0af;
@@ -121,6 +133,7 @@ html, body {
 /* WORK SECTION */
     .section_social {
     	width: 100%; 
+	text-align: center;
     }
 	.section_meta {
 		display: block;
